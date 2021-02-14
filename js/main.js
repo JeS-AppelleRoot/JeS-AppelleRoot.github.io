@@ -3,7 +3,7 @@ jQuery(document).ready(function( $ ) {
   $('.countdown').each(function() {
     $(this).countdown({
     //    until: new Date($(this).attr('data-date'))
-      until: 172680-86000
+      until: 77400
   });
   });
 
