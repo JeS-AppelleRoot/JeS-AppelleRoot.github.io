@@ -145,3 +145,7 @@ th{
 .reseau{
   font-size: 40%;
 }
+
+.row.acceuil{
+  margin:0px;
+}
