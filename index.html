@@ -1,67 +1,230 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+    <!--
+                                                                                                                               
+                                                       ,z#i:`                                                                                         
+                                                      `M@@@@W#,                                                                                       
+                                                      *@@WM@@@@z.                                                                                     
+                                                      M@x` .*W@@M,                                                                                    
+                                                     :@@:    .n@@M`        .i####*:`                                                                  
+                                                     #@x       z@@#      ;x@@@@@@@@@z.                                                                
+                                                     x@+       `W@@.   `z@@@@@@@@@@@@W:                                                               
+                                                    `@@:        *@@*  .x@@@@@n@@W++W@@W.                                                              
+                                                    ,@@.   M,   .@@M :M@@@@@; x@;  .@@@z                                                              
+                                                    :@@.  `@M`   x@@z@@@@@@W` z@`   M@@@.                                                             
+                                                    ,@@:  `W@i   n@@@@@@*+@x  zM    M@@@+                                                             
+                                                    ,@@+   #@x`  z@@@@M, +@z  z#    M@@@W`                                                            
+                                                    `@@x   ,@@+ .W@@@x`  +@#  ni    M@@@@;                                                            
+                                                     n@@:   z@@W@@@@@,   +@*  *`    W@+@@x                                                            
+                                                     i@@M`  :@@@@@@z,    +@i        WW M@@,                                                           
+                                                      x@@x, :@@@@@M      +@;        WM ;@@#         :+#+:                                             
+                                                      .M@@@nM@@@@@z      *@;        WM  M@@.      ,n@@@@@n,                                           
+                                                       .n@@@@@@+n@#      *@,        Wx  i@@+     :W@@@@@@@@#`                                         
+                                                    ,*+:`;x@@@@,n@#      *@.        Wn   M@M    ;@@@@@W@@@@@M;                                        
+                                  `xWMn#i`         #@@@@n``*@@@.n@*      *@`        W#   i@@;  *@@@@@+ .+@@@@@z`                                      
+                                  #@@@@@@@+`     `n@@@@@@x` #@@.n@*      *@         W+   `W@M:z@@@@@@.   ,M@@@@Wi                                     
+                                  M@M**zW@@W:   ,M@@@@@@@@n`+@@.n@*      *W         W*    +@@@@@@#,xW`    *@@@@@@n.                                   
+                                 `@@#   `*W@@; ;W@@@xx@W@@@MW@@`n@;      *M         W*    `W@@@M,  nx     +@W*W@@@W;                                  
+                                 `@@+ `xz`.x@@x@@@M; i@*:W@@@@x n@:      *x         Mi     #@@W.   z#     x@z `#@@@@,                                 
+                                  W@# `M@z`:@@@@@+`  *@i ,M@@@# n@:      *+         M;     :@@;    *,    `@@;  iW@@@z                                 
+                                  x@x  :@@++@@@M:    #@:  .x@@i n@,      ..         x:     :@n           :@@.  :@@@@x                                 
+                                  *@@.  i@@@@@x.     x@,   `x@. n@`                 n,     ;@:           *@W    #@@@x                                 
+                                  `W@n`  n@@@W.     .@@.    `:  nM                  .      iM            z@n    .@@@#                                 
+                                   i@@n, +@@@#.:    +@W`        nz                         *+            x@+     W@@;                                 
+                                    +@@@W@@@@WW+   `W@M         n;                         +.            W@; :*,,@@W`                                 
+                                     iW@@@@@@@M`   i@@x         .                          .            .@@. :W@@@@#                                  
+                                      `;+W@@@@;    .*@n                                                 ,@W`  :@@@@.                                  
+                                         `x@@M`     `@#                                                 :@n   ;@@@n                                   
+                                          ,@@@;      M*                                                 ;@+    z@@i                                   
+                                          `@@@:      #i                                                 ;@;    *@@`                                   
+                                           W@@`      .`                                                 i@,    +@x                                    
+                                           W@M  `                                                       iW`    #@+                                    
+                                           W@W+xM`                                                      ;x     n@i                                    
+                                           W@@@W;                                                       ;+     x@:                                    
+                                           W@@@i                                                        ..     M@.                                    
+                                           W@@M                                                                W@`                                    
+                                           W@@z                                                                @W                                     
+                                           W@@*                                                               `@W                                     
+                                          `W@@.                                                               ,@W                                     
+                                          `@@M                                                                :@W                                     
+                                          `@@n                                                                :@W                                     
+                                          `@@#                                                                i@W                                     
+                                          .@@#                                                                *@W                                     
+                                          ,@@+                                                                *@W                                     
+                                          ,@@+                                                                +@W                                     
+                                          ,@@*                                                                z@W                                     
+                                          :@@i                                                                z@W                                     
+                                          :@@i      .i**i,                                    .;*++i.         n@W                                     
+                                          :@@i    :n@@@@@@Mi                                :n@@@@@@@z,       n@W                                     
+                                          i@@i   +@@WxW@@@@@n`                             *@@WMW@@@@@W:      n@W                                     
+                                          i@@i  #@@*` `*W@@@@x`                           *@W*` `+@@@@@W,     x@W                                     
+                                          i@@i i@@*     i@@@@@#                          ,W@i     *@@@@@n     M@W                                     
+                                          +@@i`M@W`      M@@@@@,                         +@M      `W@@@@@,    M@W                                     
+                                          +@@i;@@n       z@@@@@#                         M@z       M@@@@@+   `W@W                                     
+                                          +@@i+@@M       x@@@@@M                        `W@x       W@@@@@n   `W@W                                     
+                                          #@@iz@@@;     :@@@@@@W                        `@@@:     ;@@@@@@M   `@@W                                     
+                                          z@@iz@@@M,   ,M@@@@@@W`                       `@@@M:   :W@@@@@@M   .@@W                                     
+                                          #@@*+@@@@@x#n@@@@@@@@M                         W@@@@x#n@@@@@@@@M   .@@W                                     
+                                          #@@*;@@@@@@@@@@z*W@@@n                         n@@@@@@@@W*#@@@@z   ,@@W                                     
+                                          z@@*`W@@@@@@@@z  +@@@i                         *@@@@@@@@*  x@@@i   :@@M                                     
+                                          z@@* +@@@@@@@@z .n@@M`                         `W@@@@@@@# .W@@W`   ;@@M                                     
+                                          n@@+ `n@@@@@@@@nW@@W,                           i@@@@@@@@nW@@@;    i@@M                                     
+                                          n@@+  `n@@@@@@@@@@W:                             *@@@@@@@@@@@*     *@@x                                     
+                                          n@@#    ix@@@@@@W#.          ``.,;i;,,,,,,,.      ;M@@@@@@@M;   :  #@@z                                     
+                                          z@@z      .i***:`      .#nxMWW@@@@@@@@@@@@@W`      `i#xxx#;`    x` n@@#                                     
+                                          #@@M                   #@@@@@@@@@@@@@@@@@@@@:                   M `W@@+                                     
+                                          +@@@`                  n@@@@@@@@@@@@@@@@@@@@i                  ,W`;@@@;                                     
+                                          :@@@i                  n@@@@@@@@@@@@@@@@@@@@;                  ;W #@@@.                                     
+                                          .@@@z                  z@@@@@@@@@@@@@@@@@@@@:                  #W`W@@M                                      
+                                           x@@W.                 +@@@@@@@@@@@@@@@@@@@W`                  xW;@@@#                                      
+                                           i@@@*   `             ,@@@@@@@@@@Wn+i*z@@@+                  .@@W@@@,                                      
+                                           `W@@M.i,z.             z@@@@@@@@n.    ,W@M`                  ;@@@@@n                                       
+                                            *@@@xMnW:             .M@@@@@@n     :M@M.                   #@@@@@,                                       
+                                            `M@@@@@@*              .n@@@@@+,:;*x@@x.                   `W@@@@+                                        
+                                             ,W@@@@@n                iM@@@@@@@@@xi               +;    *@@@@z`                                        
+                                              i@@@@@@,     .           ,*#xxn#*,       ii        zn   ;W@@@n`                                         
+                                               i@@@@@x`   .W`                          z+   *i   zW``*@@@@z`                                          
+                                                ;W@@@@x:`;M@;      .`                  x#   n#   M@MW@@@Wi                                            
+                                                 ,x@@@@@@@@@n      #*                  Wx  `WM.:#@@@@@@n.                                             
+                                                  `*W@@@@@@@@+:`   xM`                ,@@*,#@@@@@@@@@n:                                               
+                                                    `*M@@@@@@@@WMxM@@x*****ii;;;;;i**+M@@@@@@@@@@@M+,                                                 
+                                                      `;#W@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@Wx#:                                                    
+                                                         `:izxW@@@@@@@@@@@@@@@@@@@@@@@@@@@Mn*;.                                                       
+                                                              `.:;+x@@@@WxxxM@@Wnnx@@@M*:.                                                            
+                                               `,.                  +@@x`    z@;   +@@*                                                               
+                                             ;zW@W#                 +@@W.    i@.   ;@@W+i;:`                                                          
+                                           .x@@@@@@*              `#@@@@x.   ;@.   ,@@@@@@@@Mz;`                                                      
+                                          ,W@@Wzin@W.           `*W@@@@@@M,  :@:   .@@@@@@@@@@@W*`                                                    
+                                          x@W*`  `M@z         .+M@@W#x@@W@W: .@i    W@W:*@@WW@@@@M:                                                   
+                                         `@@#     :@@i      :zW@@W*. +@@**@Wi W+    W@x ,@M.`;n@@@W;                                                  
+                                         `@@*      #@@+.`,+M@@@Mi`   *@@, *@@*Wn    W@x *@*    .+@@W:                                                 
+                                          x@x`     `M@@@W@@@@@W.     z@@`  +@@@W`  .@@M,WW``;zWWM@@@x                                                 
+                                          i@@z      ;@@@@@@xx@@@x+:`:W@x   `n@@@;  ,@@@@@x*M@@WMM@@@@:                                                
+                                          `M@@*     `W@M@@;  `in@@@@@@@# :, `x@@z  ;@@@@@@@@@n`  .#@@#                                                
+                                           :@@@*  *+:@n;@W      .n@@@@@, ;W, ,W@@, *@@@WxW@@@W;    +@M                                                
+                                            +@@@zn@;x@:i@M     .z@@@@@M  `WM. i@@n n@@x. `,z@@W,   `M@:                                               
+                                             z@@@@@W@z +@n  `;zW@@@@@@*   +@z  z@@#W@@;     +@@z    n@W#;,`                                           
+                                              +@@@@@@#,M@WzxW@@@@M+W@@,   `W@: `M@@@@W`      n@@.  `W@@@@@Wx:                                         
+                                               ;M@@@@@@@@@@@@@x*, `W@M     *@x  ,@@@@z       ,@@*  #@@@n*z@@M                                         
+                                                 inW@@@@@@Mzi.    ;@@n     `M@i  +@@@;        x@M`;@@n:   n@@.                                        
+                                                   `,;;;:.        z@@x      ;@W` `W@W`        i@@zW@+     i@@:                                        
+                                                                  W@@W.      x@# .@@z         `W@@@n      ;@@,                                        
+                                                                 ,@@@@z`     ;@@*x@@:          *@@@+      i@@,                                        
+                                                                 *@@zW@n.     x@@@@M`           n@@Wi`  `,M@@`                                        
+                                                                 z@W`,M@W;    i@@@@+            .n@@@WxMW@@@n                                         
+                                                                 M@n  `n@@z.  `W@@@,             `*W@@@@@@@x.                                         
+                                                                .@@*    *W@Wi  x@@x                `;+zz#*:                                           
+                                                                :@@i     ,x@@n,#@@*                                                                   
+                                                                ;@@z       *W@@@@@,                                                                   
+                                                                +@@@+`      ,M@@@@:                                                                   
+                                                                #@@@@M;      `n@@@#                                                                   
+                                                                #@@@WW@n`      #@@@;                                                                  
+                                                                #@@@@#*M#       #@@W.                                                                 
+                                                                #@@Mi*``.    zz``x@@#                                                                 
+                                                                z@@*         +@n`,W@@,                                                                
+                                                       .::::::::M@@W#*;:::::;#@@MiM@@M;,:;i;i++*,                                                     
+                                                      +@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#                                                    
+                                                     .@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@,                                                   
+                                                     ,@@@xnnz###++*iiiiiiiiiiiiiiiiii*+++++++++W@@i                                                   
+                                                     ,@@M`                                     x@@i                                                   
+                                                     ,@@@                                      M@@:                                                   
+                                                      W@@`                                     W@@.                                                   
+                                                      x@@;                                    `@@W`                                                   
+                                                      #@@+                                    .@@x                                                    
+                                                      i@@z                                    :@@z                                                    
+                                                      ,@@M                                    i@@+                                                    
+                                                      `@@@`                                   #@@;                                                    
+                                                       x@@,                                   x@@.                                                    
+                                                       #@@i                                   M@W                                                     
+                                                       *@@+                                  `@@x                                                     
+                                                       :@@n                                  ,@@#                                                     
+                                                       `@@W                                  i@@*                                                     
+                                                        M@@`                                 #@@,                                                     
+                                                        z@@:                                 n@@`                                                     
+                                                        *@@i                                 W@M                                                      
+                                                        :@@#                                .@@z                                                      
+                                                        `@@x                                ;@@*                                                      
+                                                         W@W                                #@@,                                                      
+                                                         z@@i                              ,@@W`                                                      
+                                                         :@@@Wn#*:,` `   ```....,,,:;;i*i+z@@@#                                                       
+                                                          +@@@@@@@@@WWWWWWW@@@@@@@@@@@@@@@@@@M.                                                       
+                                                           ;nW@@@@@@@@@@@@@@@@@@@@@@@@@@@@@W#.                                                        
+                                                             `.;*#nMWW@@@@@@@@@@@WWWxz#*i,``      
+        -->
 <head>
-  <meta charset="utf-8">
-  <title>Je s'appelle Root - BDE</title>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="" name="keywords">
-  <meta content="" name="description">
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
-  
-
+    <link href="css/style.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Je s'appelle Root - BDE</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
 </head>
 
 <body>
-    <div id="h">
-      <div class="container row col-md-8 col-md-offset-2">
-          <h1>Je s'appelle Root ?</h1>
-          <div class="countdown-header">
-            <div class="countdown" data-date="2021/02/15"></div>
-          </div>
-    </div>
-    <img src="images/reallogosteged.png" width="60%"/>
-    <div>
-      
-      <div class="row">
-        <div class="column"><h1 class=reseau>Je s'appelle Root<br><a href="https://instagram.com/je_sappelle_root?igshid=1qwxtkzt782rt"><i class="fab fa-instagram"></i></a></h1></div>
-        <div class="column"width=50%><h1 class=reseau>Je s'appelle Root<br><a href="https://twitter.com/JeSAppelleRoot_"><i class="fab fa-twitter"></i></a></h1></div>
-      </div> 
-    </div>
-    
-    
-    
-    
-    <script src="lib/jquery/jquery.min.js"></script>
-    <script src="lib/countdown/jquery.plugin.min.js"></script>
-    <script src="lib/countdown/jquery.countdown.min.js"></script>
 
-    <!-- Template Main Javascript File -->
-    <script src="js/main.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
-    <script src="https://kit.fontawesome.com/996697fde8.js" crossorigin="anonymous"></script>
+    <img class="logo container" src="images/oui.png" />
+    
+    <div class="container" style="width:100px">
+        <a href=#liste><span class="iconify chevron white" data-icon="mdi:chevron-down" data-inline="false"></span></a>
+    </div>
+
+    <h1 id=liste>Bienvenue sur le site de Je s'appelle Root, liste candidate au BDE 2021-2022 ! <br> Désolé c'est pas ici R'Hacklette...</h1>
+    <div class="row">
+        <div class="column ">
+
+            <h1><img border="10" src="images/Titouan.jpg" /><br>Titouan Le Berre <br><b>"Rocket"</b><br>Président</h1>
+        </div>
+        <div class="column ">
+            <h1><img border="10" src="images/Antoine.jpg" /><br>Antoine Le Nours<br><b>"CSS Addict"</b><br>Vice-Président / Orga évènements</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column">
+            <h1><img border="10" src="images/Ehouarn.jpg" /><br>Ehouarn Beriot<br><b>"Sous le bureau"</b><br>Secrétaire / LAN</h1>
+        </div>
+        <div class="column ">
+            <h1><img border="10" src="images/Eloise.jpg" /><br>Eloïse Perot <br><b>"Picsou"</b><br>Trésorière</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column ">
+            <h1><img border="10" src="images/Ninon.jpg" /><br>Ninon Begkoyian<br><b>"Bonsoir, non"</b><br>Graphiste</h1>
+        </div>
+        <div class="column ">
+            <h1><img border="10" src="images/Amelie.png" /><br>Amélie Boudiou <br><b>"Minimoy"</b><br>Orga évènements</h1>
+        </div>
+    </div>
+    <div>
+        <div class="column ">
+            <h1><img border="10" src="images/Clement.jpeg" /><br>Clément Hervouet<br><b>"Ministre des Affaires Étrangères"</b><br>Communication / Relations externes
+            </h1>
+        </div>
+        <div class="column ">
+            <h1><img border="10" src="images/Simon.png"><br>Simon Barron <br><b>"Le Surveillant"</b><br>Orga évènements</h1>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1><br>Nous sommes une équipe dynamique et soudée qui saura être attentive aux idées et aux besoins de chacune et chacun d'entre vous ! <br>Nous avons comme ambition que toute la promo passe une année dans le meilleur cadre possible !</h1>
+    </div>
+    <div class="container">
+        <h3>
+            .<br>Notre programme : 
+            <ul>
+                <li>Partenariats avec différents établissements (Dominos Pizza, L'Awen....)</li>
+                <li>Organiser des évènements tels que : Du karting / PaintBall / LaserGame</li>
+                <li>Des sweats, masques à l'effigie du BDE / IUT</li>
+                <li>2 Lan l"InfoCup" par semestre</li>
+                <li>Un CTF pour faire découvir la cybersécurité aux étudiants</li>
+                <li>Des concours de programmation pour que chacun puisse montrer son niveau</li>
+                <li>Mettre en place une veille numérique sur Discord</li>
+                <li>Ériger Une statue de chacun des membres du BDE à l'entrée de L'IUT </li>
+                <li>Trouver un vaccin contre la covid</li>
+            </ul>
+        </h3>
+
+    </div>
+    
+
 </body>
-<!--
-     .^. .  _
-    /: ||`\/ \~
-  , [   &    / \ y'
- {v':   `\   / `&~-,  
-'y. '    |`   .  ' /
- \   '  .       , y   
- v .        '     v   
- V  .~.      .~.  V   
- : (  0)    (  0) :   
-  i `'`      `'` j     
-   i     __    ,j     
-    `%`~....~'&         
- <~o' /  \/` \-s,        
-  o.~'.  )(  r  .o ,.  
- o',  %``\/``& : 'bF  
-d', ,ri.~~-~.ri , +h  
-`oso' d`~..~`b 'sos`  
-     d`+ II +`b 
-     i_:_yi_;_y 
--->
+<script src="https://code.iconify.design/1/1.0.4/iconify.min.js"></script>
+
 </html>
